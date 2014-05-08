@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<style type="text/css">
+
+#loading{position:absolute;}
+
+body {
+  background-image:url(back2.jpg);
+  width:1380;
+   background-repeat:no-repeat;
+   background-position:-100px 0px;
+}
+
+.loading {
+  position:relative;
+  left:530px;;
+  top:150px;
+  margin: -60px 0 0 -60px;
+  background: #fff;
+  width: 330px;
+  height:330px;
+  border-radius: 100%;
+  border: 10px solid #19bee1;
+  min-width:200px;
+}
+
+.loading:after {
+  content: '';
+  background:relative;
+  width: 140%;
+  height: 140%;
+  position:absolute;
+  border-radius: 100%;
+  top: -20%;
+  left: -20%;
+  opacity: 0.7;
+  box-shadow: rgba(255, 255, 255, 0.6) -4px -5px 3px -3px;
+  -moz-animation: rotate 2s infinite linear;
+  -webkit-animation: rotate 2s infinite linear;
+
+}
+
+@-moz-keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+  }
+}
+
+#enter1{position:fixed;
+top:160px;
+left:535px;}
+
+#enter2{position:fixed;
+top:97.5px;
+left:477.5px;}
+</style>
+</head>
+<body>
+<div class="loading"></div>
+<img src="enter2.jpg" id="enter2">
+<a href="about.html"><img src="enter1.jpg" id="enter1"/></a>
+</body>
+</html>
