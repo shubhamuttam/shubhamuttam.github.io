@@ -333,7 +333,7 @@ z-index:3;
 cursor:pointer;}
 
 #gizmodotext3:hover{color:#e6e3bb;}
-
+#gizmodotext1:hover{color:#e6e3bb;}
 
 #freelanceswitchimg{position:absolute;
 top:930px;
@@ -370,6 +370,7 @@ letter-spacing:.5px;
 cursor:pointer;}
 
 #freelanceswitchtext3:hover{color:#e6e3bb;}
+#freelanceswitchtext1:hover{color:#e6e3bb;}
 
 
 #mashableimg{position:absolute;
@@ -383,7 +384,7 @@ top:930px;
 left:875px;
 font-family:Adobe Gothic Std B;
 font-size:18px;
-color:#e6e3bb;
+color:#8e4423;
 z-index:3;}
 
 
@@ -407,6 +408,7 @@ letter-spacing:.5px;
 cursor:pointer;}
 
 #mashabletext3:hover{color:#e6e3bb;}
+#mashabletext1:hover{color:#e6e3bb;}
 
 #hand{position:absolute;
 top:975px;
